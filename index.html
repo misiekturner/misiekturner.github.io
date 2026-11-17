@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>O aplikacji — GarminSyncCloud</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="wrap"><a class="brand" href="./">GarminSyncCloud</a><nav aria-label="Nawigacja"><a href="./" aria-current="page">O aplikacji</a><a href="privacy.html" >Polityka prywatności</a><a href="terms.html" >Warunki korzystania</a></nav></div></header>
+<main class="wrap"><h1>GarminSyncCloud</h1><p class="lede">Prywatne narzędzie automatyzujące synchronizację danych treningowych Garmin Connect i wskaźników Intervals.icu z Google Drive.</p>
+<div class="notice"><strong>Użytek osobisty.</strong> Nie ma rejestracji użytkowników ani publicznego dostępu do danych.</div>
+<h2>Jak działa?</h2><p>Skrypt GitHub Actions pobiera aktywności i wybrane pomiary zdrowotne z Garmin Connect oraz dobowe CTL, ATL, Ramp Rate i eFTP z Intervals.icu. Wyniki są zapisywane na prywatnym Google Drive właściciela, w folderze <code>_Garmin_sync</code>.</p>
+<h2>Połączenie Google OAuth</h2><p>rclone używa autoryzacji Google Drive, aby odczytywać istniejące pliki i aktualizować archiwum. Zakres nadanych uprawnień może pozwalać technicznie na szerszy dostęp, jednak zadania synchronizacji są skonfigurowane do folderu <code>_Garmin_sync</code>.</p>
+<p>Historia treningów nie jest upubliczniana na tej witrynie. Więcej informacji zawierają <a href="privacy.html">polityka prywatności</a> i <a href="terms.html">warunki korzystania</a>.</p>
+<h2>Operator</h2><p>Prywatny projekt użytkownika GitHub <a href="https://github.com/misiekturner">misiekturner</a>. Kontakt dla użytkownika OAuth jest wskazany na ekranie zgody Google.</p></main>
+<footer class="wrap">GarminSyncCloud · <a href="./">O aplikacji</a> · <a href="privacy.html">Prywatność</a> · <a href="terms.html">Warunki</a> · Aktualizacja: 17 listopada 2026</footer></body></html>
